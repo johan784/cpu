@@ -1,0 +1,30 @@
+SIM ?= verilator
+TOPLEVEL_LANG = verilog
+
+EXTRA_ARGS += --trace --trace-structs --sv
+WAVES = 1
+
+# =========================
+# Sources
+# =========================
+
+VERILOG_SOURCES = \
+    $(PWD)/../../packages/holy_core_pkg.sv\
+    $(PWD)/../../packages/axi_if.sv \
+    $(PWD)/arbiter_wrapper.sv \
+    $(PWD)/external_arbiter.sv \
+    
+# =========================
+# Top level
+# =========================
+
+TOPLEVEL = external_req_arbiter_wrapper
+
+# Python test file (without .py)
+MODULE = test_arbriter
+
+# =========================
+# Cocotb
+# =========================
+
+include $(shell cocotb-config --makefiles)/Makefile.sim

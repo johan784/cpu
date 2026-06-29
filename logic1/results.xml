@@ -1,0 +1,9 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1772865733" />
+    <testcase name="add_test" classname="testalu" file="/Users/johananil/Desktop/cpu/logic1/testalu.py" lineno="6" time="0.007838964462280273" sim_time_ns="1001.0" ratio_time="127695.43793911007" />
+    <testcase name="default_test" classname="testalu" file="/Users/johananil/Desktop/cpu/logic1/testalu.py" lineno="21" time="6.079673767089844e-05" sim_time_ns="2.0" ratio_time="32896.50196078431" />
+    <testcase name="zero_test" classname="testalu" file="/Users/johananil/Desktop/cpu/logic1/testalu.py" lineno="34" time="4.601478576660156e-05" sim_time_ns="2.0" ratio_time="43464.290155440416" />
+    <testcase name="slt_test" classname="testalu" file="/Users/johananil/Desktop/cpu/logic1/testalu.py" lineno="45" time="0.009639978408813477" sim_time_ns="1000.9999999999999" ratio_time="103838.40684589319" />
+  </testsuite>
+</testsuites>

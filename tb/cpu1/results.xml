@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1782382023" />
+    <testcase name="run_cpu" classname="test_holy_core" file="/Users/johananil/Desktop/cpu/tb/cpu1/test_holy_core.py" lineno="7" time="0.05003023147583008" sim_time_ns="5360.0" ratio_time="107135.22288197787" />
+  </testsuite>
+</testsuites>
